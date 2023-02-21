@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dear Narra</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+</style>
+
+<body>
+  
+  <section id="sec">
+    <img id="img4" src="./Assets/Perpus.jpeg" />
+    <div id="cont">
+      <div id="ckp">
+        <img src="./Assets/Untitled-1.png"/>
+      </div>
+        <a id="msgBtn" href="#pesan"> Pesan untuk narra </a>
+        <img id="img1" class="img" src="./Assets/Narra1.png" />
+      <img id="img2" class="img" src="./Assets/Narra2.png" />
+      <img id="img3" class="img" src="./Assets/Narra3.png" />
+    </div>
+    
+  </section>
+  <section id="pesan" style="background-color:#4e1600 ;">
+    <div id="card">
+      <h1 style="margin-bottom: 20px ; color: #4e1600;">Dear Narra</h1>
+      <p>
+        Hallo sayangnya aku, sayangnya dia, serta sayangnya kita semua. Di tanggal <span style="color: #4e1600; font-weight: 800;">21 Februari</span> ini adalah tanggal dimana terlahirnya wanita cantik dari Anovix bernama Narra Arraesya.
+      </p>
+      <p>
+        Aku ga pandai nyusun kata-kata indah tapi biarkan aku mencurahkan isi hatiku pakai kata-kataku.
+      </p>
+      <p>
+        Aku tau Narra dari cover Narra lagu <a href="https://youtu.be/g-jcdR1fN30" style="color: #4e1600 ; font-weight: 800;text-decoration: none;">okaeri Versi Indonesia</a>, sejak saat itu aku mulai mengikuti Narra karena aku suka suara Narra yang serak-serak banjir wkwk. Yang aku suka dari Narra bukan hanya itu, tapi juga dirinya seorang multitalent, aku dari dulu pengen jadi multitalent mangkanya aku mempelajari banyak hal, mulai dari Programmming, Design, DLL. Sosok Narra bagiku adalah seorang idola ku karena Narra selalu membuat ku tergerak untuk membuatku belajar banyak hal.
+      </p>
+      <p>
+        Sumpah ini tulisanku jelek banget tata bahasanya wkwk. Intinya Love you Narra selamat ualang tahun, semoga Narra dan Teman-teman viewers lain mendapatkan yang terbaik dalam hidupnya, di dunia maupun nanti di kehidupan kelak.
+      </p>
+      <p>Best Regards,</p>
+      <p>REZA (Revernry)</p>
+    </div>
+  </section>
+  <div id="card" style="margin-bottom: 100px;">
+    <ul id="links" style="list-style: none;">
+      <li ><a href="https://github.com/AkbarFahreza/DearNarra">Source Code and Image Credits</a></li>
+      <li><a href="https://www.youtube.com/@narraesya">Yutubnya Narra</a></li>
+      <li><a href="https://twitter.com/narraesya">Twitternya Narra</a></li>
+      <li><a href="https://twitter.com/AnovixOfficial">Twitternya Anovix</a></li>
+    </ul>
+  </div>
+</body>
+<script>
+  let img1 = document.getElementById('img1')
+  let img2 = document.getElementById('img2')
+  let img3 = document.getElementById('img3')
+  let img4 = document.getElementById('img4')
+
+  window.addEventListener('scroll', function () {
+    let val = window.scrollY;
+    img1.style.marginBottom = val * 0.3 + 'px';
+    img2.style.marginRight = val * 0.7 + 'px';
+    img2.style.marginBottom = val * 0.4 + 'px';
+    img3.style.marginLeft = val * 0.7 + 'px';
+    img3.style.marginBottom = val * 0.4 + 'px';
+    img4.style.top = val * 0.5 + 'px';
+  })
+</script>
+
+</html>
