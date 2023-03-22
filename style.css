@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #4e1600;
+}
+
+#sec {
+    position: relative;
+}
+
+#img4 {
+    height: 100vh;
+    width: 100vw;
+    z-index: -90;
+    position: relative;
+}
+
+#ckp img {
+    top: 20px;
+    position: absolute;
+    width: 50% !important;
+    right: 25%;
+    left: 25%;
+    z-index: 100;
+}
+
+#pesan {
+    padding: 100px;
+}
+
+#cont {
+    display: flex;
+    height: 100vh;
+    margin-top: -95vh;
+    justify-content: center;
+    background-size: cover;
+}
+
+#cont::before {
+    content: '';
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(0deg, #4e1600 35%, rgba(255, 2555, 255, 0.01) 100%);
+}
+
+.img {
+    position: absolute;
+    width: 250px;
+    height: 330px;
+    bottom: 25%;
+}
+
+div #img1 {
+    z-index: 99;
+}
+
+div #img2 {
+    bottom: 15%;
+    right: 220px;
+}
+
+div #img1:hover,
+div #img2:hover,
+div #img3:hover {
+    scale: 1.1;
+}
+
+div #img3 {
+    bottom: 15%;
+    left: 220px;
+}
+
+div #msgBtn {
+    animation-duration: 1s;
+    position: absolute;
+    bottom: 10%;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-self: center;
+    width: fit-content !important;
+}
+
+div #msgBtn:hover {
+    background-color: #4e1600;
+    color: #fff;
+}
+
+section #card {
+    z-index: 999;
+    padding: 100px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#card ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#card a {
+    font-weight: 600;
+    color: #4e1600;
+    background-color: #fff;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    border-radius: 50px;
+}
+
+#card a:hover {
+    font-weight: 600;
+    color: #fff;
+    background-color: #4e1600;
+    border-width: 2px;
+    border-color: #fff;
+    border-style: inset;
+}
